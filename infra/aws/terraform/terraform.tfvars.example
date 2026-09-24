@@ -1,0 +1,6 @@
+aws_region  = "ap-southeast-2"
+environment = "dev"
+
+github_oidc_subject = "repo:OWNER@OWNER_ID/kendrix-entity-resolution@REPO_ID:ref:refs/heads/main"
+
+terraform_state_bucket_arn = "arn:aws:s3:::kendrix-er-tfstate-123456789012"
